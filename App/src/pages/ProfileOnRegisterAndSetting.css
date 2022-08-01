@@ -1,0 +1,72 @@
+.RegisterHairstylist {}
+
+.form>div {
+  padding-bottom: 0.5rem;
+}
+
+.gender {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 1rem;
+}
+
+.label {
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.SettingsPage div {
+  color: var(--dark-grey);
+}
+
+.SettingsPage label {
+  color: var(--dark-grey)
+}
+
+
+.RegisterHairstylist .upload-image-box,
+.RegisterClient .upload-image-box {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.RegisterHairstylist .upload-image-text,
+.RegisterClient .upload-image-text {
+  margin: 0.5rem 0;
+  color: #212529;
+  font-weight: 500;
+}
+
+.RegisterHairstylist .register-asterisk,
+.RegisterClient .register-asterisk {
+  color: #C46868;
+}
+
+.RegisterHairstylist .upload-image-button,
+.RegisterClient .upload-image-button {
+  width: 60%;
+}
+
+.RegisterHairstylist input[type="file"]::file-selector-button,
+.RegisterClient input[type="file"]::file-selector-button {
+  border-style: none;
+  background-color: var(--light-cyan) !important;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 25px;
+  font-size: bold;
+  cursor: pointer;
+}
+
+.SettingsPage Button span {
+  color: white !important;
+}

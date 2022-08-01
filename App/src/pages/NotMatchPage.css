@@ -1,0 +1,16 @@
+.notMatch {
+    padding: 2rem;
+    background-color: var(--bs-secondary);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+}
+
+.notMatch .message>div {
+    margin: 1rem 0;
+}
+
+
+.notMatch .message>div>span {
+    font-weight: bold;
+}

@@ -1,0 +1,161 @@
+.FindHairStylistPage{
+    height: calc(100vh - 4.5rem);
+    overflow-y: scroll;
+}
+
+.FindHairStylistPage::-webkit-scrollbar {
+    display: none;
+}
+
+.FindHairStylistPage .search-container {
+    padding: 0;
+}
+
+.FindHairStylistPage .menu {
+    width: 100%;
+}
+
+.FindHairStylistPage .filter-hairstylist-title {
+    padding: 0;
+    margin: 0 0 0 0;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.FindHairStylistPage .filter-button {
+    width: 100%;
+    margin: 0 0 1rem 0;
+    padding: 0;
+    /* border-top-left-radius: 5px;
+    border-top-right-radius: 5px; */
+    border-radius: 5px;
+    /* background-color: transparent; */
+    background-color: var(--cyan);
+    border-style: none;    
+    color: white;
+    filter: drop-shadow(0px 0px 1px #CCCCCC);
+    box-shadow: 0px 0px 5px var(--cyan);
+    transition: scale, box-shadow, 0.5s;
+}
+
+.FindHairStylistPage .filter-button:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 1px 15px var(--cyan);
+}
+
+.FindHairStylistPage .filtered-title {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.2rem 0;
+}
+
+.FindHairStylistPage .filtered-title:hover {
+    border-style: none;
+    background: var(--light-cyan);
+}
+
+.FindHairStylistPage .filtered-title>div {
+    display: flex;
+    align-items: center;
+}
+
+.FindHairStylistPage .find-hairstylist-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.FindHairStylistPage .grid {
+    margin: 0 0 1.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px var(--cyan);
+    background-color: white;
+    color:  var(--dark-grey);
+    transition: scale, box-shadow, 0.5s;
+}
+
+.FindHairStylistPage .grid:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 1px 15px var(--cyan);
+}
+
+.FindHairStylistPage .filtered-tag-box {
+    display: flex;
+    justify-content: center;
+    /* margin: 0.1rem 0; */
+    background-color: white;
+    border-color: var(--cyan);
+    border-width: 0px;
+    border-style: solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.FindHairStylistPage .filtered-tag-line {
+    display: flex;
+    justify-content: center;
+}
+
+.FindHairStylistPage .filtered-tag {
+    margin: 0.3rem 0.5rem;
+    background-color: var(--cyan);
+    color: white;
+}
+
+.FindHairStylistPage .filtered-tag:hover {
+    border-style: none;
+    background: var(--light-cyan);
+}
+
+.FindHairStylistPage .grid-data-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: start;
+    min-width: 230px;
+    max-width: 60%;
+}
+
+.FindHairStylistPage .grid-data {
+    margin: 0.2rem 0 0 0;
+    font-size: 0.8rem;
+    text-align: start;
+}
+
+/* .avatar {
+    margin: 0 0 0.4rem 0;
+} */
+
+.FindHairStylistPage .avatar-and-tag-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.FindHairStylistPage .avatar-and-tag-box>div {
+    display: flex;
+    justify-content: center;
+}
+
+.FindHairStylistPage .tag {
+    background-color: var(--cyan);
+    margin: 0.4rem 0 0 0;
+}
+
+.FindHairStylistPage .tag:hover {
+    border-style:none;
+    background: var(--light-cyan);
+}
+
+.FindHairStylistPage .booking-button {
+    background-color: var(--cyan);
+    width: 100%;
+}
+
+.FindHairStylistPage .booking-button:focus,
+.booking-button:hover {
+    border-style:none;
+    background: var(--light-cyan);
+}

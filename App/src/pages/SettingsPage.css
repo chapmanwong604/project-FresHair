@@ -1,0 +1,9 @@
+.SettingsPage {
+    height: calc(100vh - 4.5rem);
+    overflow-y: scroll;
+    color: var(--dark-grey);
+}
+
+.SettingsPage::-webkit-scrollbar {
+    display: none;
+}

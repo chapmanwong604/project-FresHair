@@ -1,0 +1,100 @@
+# Visualize on https://erd.surge.sh
+# or https://quick-erd.surge.sh
+#
+# Relationship Types
+#  -    - one to one
+#  -<   - one to many
+#  >-   - many to one
+#  >-<  - many to many
+#  -0   - one to zero or one
+#  0-   - zero or one to one
+#  0-0  - zero or one to zero or one
+#  -0<  - one to zero or many
+#  >0-  - zero or many to one
+#
+////////////////////////////////////
+
+
+plan
+----
+id integer PK
+hair_stylist_info_id integer FK >- hair_stylist_info.id
+item_description varchar(64)
+item_time integer
+price integer
+
+
+service_tag
+-----------
+id integer PK
+tag varchar(64)
+
+
+timeslot
+--------
+id integer PK
+hair_stylist_info_id integer FK >- hair_stylist_info.id
+date date
+time time without time zone
+available boolean
+
+
+client_info
+-----------
+id integer PK
+username varchar(64)
+password varchar(64)
+email varchar(64) unique
+phone integer
+gender varchar(64)
+profile_pic varchar(256) NULL
+
+
+booking
+-------
+id integer PK
+client_id integer FK >- client_info.id
+hair_stylist_info_id integer FK >- hair_stylist_info.id
+status varchar(64)
+date date
+time time without time zone
+plan_id integer FK >- plan.id
+rating integer
+review varchar(255) NULL
+special_request varchar(255) NULL
+
+
+price_range
+-----------
+id integer PK
+description varchar(64)
+price_range integer
+
+
+districts
+---------
+id integer PK
+district varchar(64)
+
+
+genders
+-------
+id integer PK
+gender varchar(64)
+
+
+hair_stylist_info
+-----------------
+id integer PK
+username varchar(64)
+password varchar(64)
+email varchar(64) unique
+phone integer
+gender varchar(64)
+profile_pic varchar(255)
+bio varchar(255)
+location varchar(255)
+service_tag ARRAY
+image ARRAY
+rating integer
+district varchar(64)

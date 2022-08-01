@@ -1,0 +1,162 @@
+.HomePage {
+    height: calc(100vh - 4.5rem);
+    /* overflow-y: scroll; */
+    /* padding: 3rem 0 3rem 0; */
+}
+
+.HomePage .logged-in-page {
+    padding: 2rem 0 2rem 0;
+}
+
+.HomePage::-webkit-scrollbar {
+    display: none;
+}
+
+.HomePage .outer-box {
+    height: 100%;
+}
+
+.Homepage .logo-box {
+    display: flex;
+    justify-content: center;
+}
+
+.HomePage .App-logo {
+    height: 10rem;
+    /* margin: 3rem 0; */
+    pointer-events: none;
+}
+
+.HomePage .star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomePage .star-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomePage .big-grid {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    height: 100%;
+}
+
+.HomePage h1 {
+    font-family: 'Klick Regular', sans-serif;
+    background: -webkit-linear-gradient(right, var(--cyan), var(--light-cyan));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: fit-content;
+    letter-spacing: 0.3rem;
+    font-size: 4.5rem;
+    /* font-size: 10vmin; */
+    margin: 2rem 0 0 0;
+    font-weight: bold;
+    /* padding: 2vmin 0; */
+    /* text-shadow: 1px 1px 50px var(--light-cyan); */
+}
+
+.HomePage .client-home {
+    height: 100%;
+    margin: 2rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.HomePage .stylist-home {
+    height: 100%;
+    margin: 2rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.HomePage .homepage-text {
+    margin: 2rem 0;
+    color: var(--dark-grey);
+}
+
+.HomePage .not-found-text {
+    font-size: 1rem;
+    margin: 1rem 0;
+    color: var(--dark-grey)
+}
+
+.HomePage .Badge {
+    border-style: none;
+    background: var(--light-cyan);
+    color: white;
+    margin: 0.5rem 0;
+}
+
+.HomePage .avatar {
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100px;
+}
+
+.HomePage .SimpleGridAvatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: inline-wrap;
+}
+
+.HomePage .bookingFromLoop {
+    text-align: left;
+}
+
+.HomePage .grid {
+    margin: 0 0 1.5rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px var(--cyan);
+    background-color: white;
+    color: var(--dark-grey);
+    transition: scale, box-shadow, 0.5s;
+    text-align: initial;
+    /* display:flex; */
+}
+
+.HomePage .grid:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 1px 15px var(--cyan);
+}
+
+.HomePage .grid-inner-box {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 0.5rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.HomePage .grid-item {
+    /* width: 6rem; */
+    margin: 0.1rem 0 0 0;
+    font-size: 0.8rem;
+    text-align: start;
+    min-width: 4.5rem;
+}
+
+.HomePage .grid-data {
+    margin: 0.1rem 0 0 0;
+    font-size: 0.8rem;
+    text-align: start;
+    word-break: break-all;
+    text-align: start;
+    /* min-width: 4.5rem; */
+}

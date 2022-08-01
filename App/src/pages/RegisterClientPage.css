@@ -1,0 +1,14 @@
+.RegisterClientPage {
+}
+
+.form div {
+  padding-bottom: 0.3rem;
+}
+
+.gender{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+padding-left: 1rem;
+}

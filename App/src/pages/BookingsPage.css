@@ -1,0 +1,138 @@
+.BookingsPage {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    height: calc(100vh - 4.5rem);
+    overflow-y: scroll;
+}
+
+.BookingsPage::-webkit-scrollbar {
+    display: none;
+}
+
+
+.BookingsPage .booking-details-box {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.BookingsPage .grid {
+    margin: 0 0 1.5rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px var(--cyan);
+    background-color: white;
+    color: var(--dark-grey);
+    transition: scale, box-shadow, 0.5s;
+}
+
+.BookingsPage .grid:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 1px 15px var(--cyan);
+}
+
+/* .BookingsPage .grid-data-container {
+    align-self: flex-start;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    min-width: 230px;
+    max-width: 100%;
+} */
+
+
+.BookingsPage .data-items {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.BookingsPage .grid-item {
+    margin: 0.1rem 0 0 0;
+    font-size: 0.8rem;
+    text-align: start;
+    min-width: 4.5rem;
+    font-weight: bold;
+    /* word-break: break-all;
+    text-align: start;   */
+}
+
+.BookingsPage .grid-data {
+    margin: 0.1rem 0 0 0;
+    font-size: 0.8rem;
+    text-align: start;
+    word-break: break-all;
+    text-align: start;  
+}
+
+.BookingsPage .grid-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0 0 0;
+}
+
+.BookingsPage .link-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.BookingsPage .accept-reject-container {
+    display: flex;
+    align-items: center;
+}
+
+.BookingsPage .accept-reject-button {
+    margin: 0 0 0 1rem;
+}
+
+/* .BookingsPage .accept-reject-button:hover {
+    filter: contrast(80%)
+} */
+
+.BookingsPage a {
+    text-decoration: none;
+    display: flex;
+    align-items: center
+}
+
+.BookingsPage .link-buttons {
+    margin: 0 0.5rem 0 0;
+}
+
+.BookingsPage .whatsapp-button {
+    color: green;
+}
+
+.BookingsPage .google-map-button {
+    color: var(--light-cyan);
+}
+
+.BookingsPage .phone-button {
+    color: var(--cyan);
+}
+
+.BookingsPage .reminder {
+    margin: 1rem 0;
+}
+
+.BookingsPage .pending-text {
+    color: var(--light-cyan);
+    font-weight: bold;
+}
+
+.BookingsPage .accept-text {
+    color: var(--cyan);
+    font-weight: bold;
+}
+
+.BookingsPage .reject-text {
+    color: var(--red);
+    font-weight: bold;
+}
+
+.BookingsPage .complete-text {
+    color: green;
+    font-weight: bold;
+}

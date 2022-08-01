@@ -1,0 +1,78 @@
+.RegisterPage {
+    /* height: calc(100vh - 4.5rem); */
+    /* min-height: 100vh; */
+    height: 100vh;
+    overflow: scroll;
+    color: var(--dark-grey);
+}
+
+.RegisterPage::-webkit-scrollbar {
+    display: none;
+}
+
+/* .RegisterPage .register-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.RegisterPage .register-details {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+} */
+
+.RegisterPage .register-title {
+    margin: 1.5rem 0;
+}
+
+.RegisterPage .register-text {
+    color: var(--dark-grey);
+    width: 100%;
+}
+
+.RegisterPage .register-segment {
+    margin: 0.5rem 0;
+}
+
+.RegisterPage .register-question {
+    margin: 1rem 0;
+}
+
+.RegisterPage .register-form {
+    margin: 1.5rem 0;
+}
+
+.RegisterPage .link {
+    color: var(--light-cyan);
+    font-weight: bold;
+}
+/* Header with Back Button */
+
+.RegisterPage .register-header {
+    display: flex;
+    /* flex-direction: row; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.RegisterPage .back-icon {
+    margin: 1rem 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 1.5rem;
+}
+
+.RegisterPage .register-header-text {
+    display: flex;
+}
+
+/* Header with Back Button */
+

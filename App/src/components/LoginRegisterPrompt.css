@@ -1,0 +1,101 @@
+.LoginRegisterPrompt {
+    /* height: 100vh; */
+    /* height: 100%; */
+    height: calc(100vh - 4.5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    --retro-blue: rgba(19, 25, 88);
+    --retro-red: rgb(118, 36, 23);
+    --grey: #888888;
+    --light-cyan: rgba(102, 217, 199, 1);
+    --cyan: rgba(46, 150, 191, 1);
+    --red: rgba(196, 104, 104, 1);
+    --dark-grey: #555555;
+
+    color:var(--dark-grey)
+}
+
+.LoginRegisterPrompt .App-topic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 60vw; */
+    filter: drop-shadow(3px 3px 3px #CCCCCC);
+    margin: 1rem 0;
+}
+
+.LoginRegisterPrompt .App-logo {
+    height: 10rem;
+    pointer-events: none;
+}
+
+.LoginRegisterPrompt h1 {
+    font-family: 'Klick Regular', sans-serif;
+    background: -webkit-linear-gradient(right, var(--cyan), var(--light-cyan));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.3rem;
+    font-size: 4.5rem;
+    /* font-size: 10vmin; */
+    margin: 0;
+    font-weight: bold;
+    /* padding: 2vmin 0; */
+    /* text-shadow: 5px 5px 5px #CCCCCC; */
+}
+
+.LoginRegisterPrompt .grid-outer-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* .LoginRegisterPrompt .grid-outer-container>div {
+    width: 90%;
+    background-color: var(--retro-blue);
+    margin: 1.5rem 0;
+    padding-top: 2rem;
+    filter: drop-shadow(0px 0px 1px #CCCCCC);
+    box-shadow: 0px 0px 5px var(--retro-blue);
+} */
+
+.LoginRegisterPrompt .description {
+    margin: 0rem 0;
+    color: var(--dark-grey)
+}
+
+.LoginRegisterPrompt .greeting-line {
+    margin: 0.5rem 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.LoginRegisterPrompt .login-register-line {
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+}
+
+.LoginRegisterPrompt .login-register-box {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+}
+
+.LoginRegisterPrompt .login-button {
+    background-color: var(--light-cyan);
+}
+
+.LoginRegisterPrompt .register-button {
+    background-color: var(--cyan);
+}
+
+.LoginRegisterPrompt h1>span {
+    color: var(--red);
+}
+
+.LoginRegisterPrompt .login-register-grid {
+    margin: 1.5rem 0;
+    padding: 0.5rem;
+    border-radius: 0px;
+    background-color: white;
+}

@@ -1,0 +1,29 @@
+.BackButton {
+    background-color: white;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+}
+
+.BackButtonMargin {
+    margin: 0 0 3.5rem 0;
+}
+
+.backbutton-disabled {
+    display: none;
+}
+
+.BackButton .back-icon {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: var(--cyan);
+}
+
+.BackButton .back-icon-text {
+    margin: 0 0.2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}

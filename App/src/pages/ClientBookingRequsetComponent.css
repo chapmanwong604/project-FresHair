@@ -1,0 +1,144 @@
+.ClientBookingRequestComponent {}
+
+/* .ClientBookingRequestComponent .planChips {
+  
+
+} */
+
+.ClientBookingRequestComponent .hair-stylist-details-title {
+  background-color: var(--cyan);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 0.5rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.ClientBookingRequestComponent .hair-stylist-details-title:hover {
+  background-color: var(--light-cyan);
+}
+
+.ClientBookingRequestComponent .hair-stylist-details-grid {
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px var(--cyan);
+  padding: 0 0rem 1rem 0rem;
+  margin: 2rem 0 1rem 0;
+}
+
+.ClientBookingRequestComponent .outer-grid {
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px var(--cyan);
+  padding: 1rem 0.5rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.ClientBookingRequestComponent .calendar {
+  display: flex;
+  justify-content: center;
+}
+
+
+.ClientBookingRequestComponent .confirmButton {
+  margin: 1rem;
+}
+
+.ClientBookingRequestComponent .steps-text {
+  color: var(--cyan);
+}
+
+.ClientBookingRequestComponent .instruction {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  color: var(--dark-grey);
+}
+
+.ClientBookingRequestComponent {
+  color: var(--dark-grey);
+}
+
+.ClientBookingRequestComponent .instruction-text {
+  padding: 0.25rem 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.ClientBookingRequestComponent .register-header {
+  display: flex;
+  /* flex-direction: row; */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.ClientBookingRequestComponent .back-icon {
+  margin: 1rem 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 1.5rem;
+}
+
+.ClientBookingRequestComponent .note-asterisk {
+  color: var(--light-cyan)
+}
+
+.ClientBookingRequestComponent .reminder {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.ClientBookingRequestComponent .register-header-text {
+  display: flex;
+}
+
+.ClientBookingRequestComponent .avatar-info-box {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.ClientBookingRequestComponent .name-box {
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.ClientBookingRequestComponent .location-container {
+  align-self: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.ClientBookingRequestComponent .location-box {
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  padding: 0 2rem;
+  justify-content: flex-start;
+}
+
+.ClientBookingRequestComponent .grid-item {
+  text-align: start;
+  margin: 0.1rem 0 0 0;
+  min-width: 4.5rem;
+
+  /* font-size: 0.8rem; */
+}
+
+.ClientBookingRequestComponent .data-item {
+  text-align: start;
+  margin: 0.1rem 0 0 0;
+  word-break: break-all;
+  text-align: start;
+  /* font-size: 0.8rem; */
+}
+
+.ClientBookingRequestComponent .stepBox {
+  margin: 0 0 2rem 0;
+}

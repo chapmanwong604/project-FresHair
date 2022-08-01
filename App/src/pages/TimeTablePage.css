@@ -1,0 +1,8 @@
+.TimeTablePage {
+    height: calc(100vh - 4.5rem);
+    overflow-y: scroll;
+}
+
+.TimeTablePage::-webkit-scrollbar {
+    display: none;
+}

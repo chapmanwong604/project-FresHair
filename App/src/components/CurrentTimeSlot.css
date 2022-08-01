@@ -1,0 +1,102 @@
+.CurrentTimeSlot {
+    color: var(--dark-grey);
+    height: calc(100vh - 4.5rem);
+}
+
+.CurrentTimeSlot .instruction {
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.CurrentTimeSlot .timetable-changer {
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px var(--cyan);
+    padding: 1rem;
+    min-width: 100%;
+    margin: 1rem;
+}
+
+.CurrentTimeSlot .calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CurrentTimeSlot .date-time-select-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CurrentTimeSlot .checked-date {
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* .CurrentTimeSlot .time-slot-tags {
+    max-height: 10rem;
+    overflow-y: scroll;
+}
+
+.CurrentTimeSlot .time-slot-tags::-webkit-scrollbar {
+    display: none;
+} */
+
+.CurrentTimeSlot .time-slot-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin:  0 0 0;
+    padding: 0; */
+}
+
+.CurrentTimeSlot .time-slot-box {
+    margin: 0;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.CurrentTimeSlot .time-slot-text {
+    margin: 0.5rem 0;
+}
+
+.CurrentTimeSlot .color-on {
+    color: var(--cyan);
+    font-weight: bold;
+}
+
+.CurrentTimeSlot .color-off {
+    color: var(--grey);
+    font-weight: bold;
+}
+
+.CurrentTimeSlot .note-asterisk {
+    color: var(--light-cyan);
+    font-weight: bold;
+}
+
+.CurrentTimeSlot .time-slot-button {
+    padding: 0;
+    margin: 0.5rem 1rem;
+    border-style: none;
+    border-width: 0;
+    background-color: transparent;
+}
+
+.CurrentTimeSlot .time-slot-open {
+    background-color: var(--cyan);
+    border-style: none;
+    border-color: var(--cyan);
+    color: white;
+}
+
+.CurrentTimeSlot .time-slot-closed {
+    background-color: var(--grey);
+    border-style: none;
+    border-color: var(--grey);
+    color: white;
+}

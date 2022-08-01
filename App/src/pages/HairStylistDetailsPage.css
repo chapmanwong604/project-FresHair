@@ -1,0 +1,131 @@
+.HairStylistDetailsPage {
+  /* --blue: rgba(85, 150, 205);
+  --red: rgba(216, 95, 76);
+  --retro-blue: rgba(19, 25, 88);
+  --retro-red: rgb(118, 36, 23);
+  --grey: #888888; */
+}
+
+.HairStylistDetailsPage .outer-grid {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.HairStylistDetailsPage .hair-stylist-details-title {
+  background-color: var(--cyan);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  color: white;
+}
+
+.HairStylistDetailsPage .hair-stylist-details-title:hover {
+  background-color: var(--light-cyan);
+}
+
+.HairStylistDetailsPage .quote {
+  margin: 0.5rem;
+  display: flex;
+  word-break: break-all;
+  text-align: start;
+  justify-content: center;
+}
+
+.HairStylistDetailsPage .hair-stylist-details-grid {
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px var(--cyan);
+  padding: 0 0rem 1rem 0rem;
+  margin: 1.5rem 0;
+}
+
+.HairStylistDetailsPage .hair-stylist-plans-title {
+  padding: 0.5rem;
+  color: white;
+  background-color: var(--cyan);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.HairStylistDetailsPage .avatar-info-box {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.name-box {
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.HairStylistDetailsPage .location-container {
+  align-self: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.HairStylistDetailsPage .location-box {
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  padding: 0 2rem;
+  justify-content: flex-start;
+}
+
+.HairStylistDetailsPage .grid-item {
+  text-align: start;
+  margin: 0.1rem 0 0 0;
+  min-width: 4.5rem;
+
+  /* font-size: 0.8rem; */
+}
+
+.HairStylistDetailsPage .data-item {
+  text-align: start;
+  margin: 0.1rem 0 0 0;
+  word-break: break-all;
+  text-align: start;
+  /* font-size: 0.8rem; */
+}
+
+
+tr {
+  text-align: left;
+}
+
+.HairStylistDetailsPage .register-header {
+  display: flex;
+  /* flex-direction: row; */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.HairStylistDetailsPage .back-icon {
+  margin: 1rem 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 1.5rem;
+}
+
+.HairStylistDetailsPage .register-header-text {
+  display: flex;
+}
+
+.HairStylistDetailsPage .booking {
+  margin-bottom: 16px;
+}
+
+.HairStylistDetailsPage a {
+  text-decoration: none;
+  color: white !important;
+}

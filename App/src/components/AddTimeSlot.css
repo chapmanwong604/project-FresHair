@@ -1,0 +1,66 @@
+.AddTimeSlot {
+    color: var(--dark-grey);
+    height: calc(100vh - 4.5rem);
+}
+
+.AddTimeSlot .instruction {
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.AddTimeSlot .date-time-select-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AddTimeSlot .calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AddTimeSlot .step-box {
+    margin: 1rem;
+}
+
+.AddTimeSlot .time-slot-text {
+    margin: 0.5rem 0;
+}
+
+.AddTimeSlot .note-asterisk {
+    color: var(--light-cyan);
+    font-weight: bold;
+}
+
+.AddTimeSlot .selected-date-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AddTimeSlot .selected-data {
+    text-align: start;
+    margin: 0 0 0 1rem;
+}
+
+.AddTimeSlot .selected-item {
+    font-weight: bold;
+}
+
+.AddTimeSlot .outer-grid {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px var(--cyan);
+    padding: 1rem 0.5rem;
+    margin: 1rem 0 1rem 0;
+}
+.AddTimeSlot .steps-text {
+    color: var(--cyan);
+}
+
+.AddTimeSlot .stepBox {
+    margin: 0 0 2rem 0;
+}

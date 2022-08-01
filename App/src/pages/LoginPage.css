@@ -1,0 +1,77 @@
+.LoginPage {
+    /* height: calc(100vh - 4.5rem); */
+    height: 100vh;
+    overflow: scroll;
+    color: var(--dark-grey);
+}
+
+.LoginPage::-webkit-scrollbar {
+    display: none;
+}
+
+/* .LoginPage .login-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+}
+
+.LoginPage .login-details {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+} */
+
+.LoginPage .login-title {
+    margin: 1.5rem 0;
+}
+
+.LoginPage .login-text {
+    color: var(--dark-grey);
+    width: 100%;
+}
+
+.LoginPage .login-segment {
+    margin: 0.5rem 0;
+}
+
+.LoginPage .login-form {
+    margin: 1.5rem 0;
+}
+
+.LoginPage .link {
+    color: var(--cyan);
+    font-weight: bold;
+}
+
+.LoginPage .login-input {
+    margin: 0 0 1rem 0;
+}
+
+/* Header with Back Button */
+
+.LoginPage .login-header {
+    display: flex;
+    /* flex-direction: row; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.LoginPage .back-icon {
+    margin: 1rem 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 1.5rem;
+}
+
+.LoginPage .login-header-text {
+    display: flex;
+}
+
+/* Header with Back Button */
